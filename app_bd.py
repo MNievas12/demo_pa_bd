@@ -10,7 +10,7 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def welcome():
-    return "Welcome to mi API conected to my books database"
+    return "<h1>Welcome to mi API conected to my books database from a repository from Github</h1>"
 
 @app.route('/api/v1/resources/books/all', methods=['GET'])
 def get_all():
